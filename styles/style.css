@@ -59,7 +59,7 @@ span {
   padding-right: 20px;
 }
 .header_menu {
-  font-family: interregular;
+  font-family: interregular, sans-serif;
   font-size: 16px;
   font-style: normal;
   line-height: 19.2px;
@@ -101,7 +101,7 @@ span {
   color: rgb(245, 245, 245);
   font-size: 72px;
   font-style: normal;
-  font-family: ebgaramondregular, arial, serif;
+  font-family: ebgaramondregular, serif;
   font-weight: 400;
   font-style: normal;
   line-height: 100%;
@@ -139,7 +139,7 @@ span {
 
 .intro__title {
   color: rgb(204, 204, 204);
-  font-family: interregular, arial, sans-serif;
+  font-family: interregular, sans-serif;
   font-style: normal;
   line-height: 120%;
   font-weight: 400;
@@ -149,7 +149,7 @@ span {
 
 .intro__date {
   color: rgb(204, 204, 204);
-  font-family: interregular, arial, sans-serif;
+  font-family: interregular, sans-serif;
   font-style: normal;
   line-height: 120%;
   font-weight: 400;
@@ -189,7 +189,7 @@ span {
 .content-section__subtitle {
   font-size: 28px;
   font-style: normal;
-  font-family: ebgaramondregular, arial, serif;
+  font-family: ebgaramondregular, serif;
   font-weight: 500;
   font-style: normal;
   line-height: 115%;
@@ -198,7 +198,7 @@ span {
 }
 
 .content-section__introduction {
-  font-family: interregular, arial, sans-serif;
+  font-family: interregular, sans-serif;
   font-size: 20px;
   font-style: normal;
   font-weight: 400;
@@ -211,7 +211,7 @@ span {
   margin-left: 14px;
   margin-right: 5px;
   color: rgb(19, 19, 19);
-  font-family: interregular, arial, sans-serif;
+  font-family: interregular, sans-serif;
   font-size: 16px;
   font-style: normal;
   font-weight: 400;
@@ -244,7 +244,7 @@ span {
 }
 
 .card__title {
-  font-family: ebgaramondregular, arial, serif;
+  font-family: ebgaramondregular, serif;
   font-size: 22px;
   font-style: normal;
   font-weight: 500;
@@ -253,7 +253,7 @@ span {
 }
 
 .card_text-only {
-  font-family: ebgaramondmedium, arial, serif;
+  font-family: ebgaramondmedium, serif;
   font-size: 22px;
   font-style: normal;
   font-weight: 500;
@@ -276,7 +276,7 @@ span {
 
 .card__author-name {
   color: rgb(245, 245, 245);
-  font-family: interregular, arial, sans-serif;
+  font-family: interregular, sans-serif;
   font-size: 16px;
   font-style: normal;
   font-weight: 700;
@@ -292,7 +292,7 @@ span {
 }
 
 .card__text {
-  font-family: interregular, arial, sans-serif;
+  font-family: interregular, sans-serif;
   font-size: 16px;
   font-style: normal;
   font-weight: 400;
@@ -316,7 +316,7 @@ span {
 }
 
 .footer__links {
-  font-family: interregular, arial, sans-serif;
+  font-family: interregular, sans-serif;
   font-size: 14px;
   font-style: normal;
   font-weight: 400;
