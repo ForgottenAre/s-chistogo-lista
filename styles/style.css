@@ -46,7 +46,6 @@
 
 .header {
   display: flex;
-  height: 132px;
   padding-top: 24px;
   padding-bottom: 24px;
   align-items: flex-start;
@@ -76,20 +75,17 @@
 
 .cover {
   width: 360px;
-  height: 277px;
+  height: 255px;
   box-sizing: border-box;
   padding-left: 20px;
   padding-top: 7px;
-  min-width: 360px;
-  min-height: 270px;
   background-image: url(cover.svg);
   background-size: 95% auto;
   background-repeat: no-repeat;
-  background-position: 20px 75px;
+  background-position: 20px 28px;
 }
 
 .cover_content_section {
-  height: 277px;
   box-sizing: border-box;
   padding-right: 20px;
 }
@@ -122,43 +118,43 @@
 }
 
 .intro {
-  height: 470px;
+  display: flex;
   padding-left: 20px;
   padding-right: 20px;
-  padding-bottom: 38px;
   box-sizing: border-box;
-  position: relative;
-  top: -22px;
 }
 
 .intro__heading {
-  width: 320px;
-  height: 38px;
+  display: flex;
+  max-width: 100%;
+  flex-wrap: wrap;
+  box-sizing: border-box;
 }
 
 .intro__title {
   display: flex;
-  align-items: stretch;
+  align-items: flex-start;
   color: rgb(204, 204, 204);
   font-family: Inter, sans-serif;
   font-style: normal;
   line-height: 120%;
   font-weight: 400;
   font-size: 16px;
-  white-space: nowrap;
+}
+
+.intro__title-span {
+  display: flex;
 }
 
 .intro__date {
+  display: flex;
   color: rgb(204, 204, 204);
   font-family: Inter, sans-serif;
   font-style: normal;
   line-height: 120%;
   font-weight: 400;
   font-size: 16px;
-  width: 117px;
-  padding-left: 38px;
   white-space: nowrap;
-  box-sizing: border-box;
   background-image: url(Images/Line\ 1.svg);
   background-size: auto;
   background-repeat: no-repeat;
@@ -166,23 +162,21 @@
 }
 
 .intro__main-text {
-  padding-top: 24px;
   color: rgba(245, 245, 245, 1);
   line-height: 21.6px;
   font-size: 16px;
   font-style: normal;
   font-family: Inter, sans-serif;
+  padding-bottom: 40px;
 }
 
-.intro__main-text_second {
+.intro__main-text_text {
   margin-top: 24px;
-  padding-bottom: 40px;
   font-family: Inter, sans-serif;
 }
 
 .reasons {
-  padding: 40px 20px 0px;
-  height: 1368px;
+  padding: 40px 20px;
 }
 
 .content-section__subtitle {
@@ -202,7 +196,6 @@
 }
 
 .content-section__list {
-  height: 865px;
   margin-left: 14px;
   margin-right: 5px;
   color: rgb(19, 19, 19);
@@ -221,11 +214,12 @@
   font-weight: 700;
   display: inline-block;
 }
+
 .how-to {
   padding-left: 20px;
   padding-right: 20px;
   padding-top: 40px;
-  height: 1820px;
+  padding-bottom: 20px;
 }
 
 .card-list {
@@ -280,7 +274,6 @@
 }
 
 .card_theme_bright {
-  height: 368px;
   background-color: rgb(254, 228, 42);
   padding: 20px;
   border-radius: 30px;
@@ -303,9 +296,9 @@
   height: 62px;
   border-top: 1px solid var(--yellow-bg, #fee42a);
 }
+
 .footer__links_container {
   display: flex;
-  width: 360px;
   height: 62px;
   justify-content: flex-end;
   gap: 16px;
