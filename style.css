@@ -75,14 +75,14 @@
 
 .cover {
   width: 360px;
-  height: 255px;
+  padding-bottom: 32px;
   box-sizing: border-box;
   padding-left: 20px;
   padding-top: 7px;
   background-image: url(cover.svg);
   background-size: 95% auto;
   background-repeat: no-repeat;
-  background-position: 20px 28px;
+  background-position: 20px 29px;
 }
 
 .cover_content_section {
@@ -196,6 +196,7 @@
 }
 
 .content-section__list {
+  list-style-type: disc;
   margin-left: 14px;
   margin-right: 5px;
   color: rgb(19, 19, 19);
@@ -219,7 +220,7 @@
   padding-left: 20px;
   padding-right: 20px;
   padding-top: 40px;
-  padding-bottom: 20px;
+  padding-bottom: 30px;
 }
 
 .card-list {
@@ -261,7 +262,7 @@
 
 .card__author-photo {
   width: 100px;
-  height: 100px;
+  padding-bottom: 10px;
 }
 
 .card__author-name {
@@ -293,13 +294,11 @@
   justify-content: space-between;
   align-items: stretch;
   padding: 20px;
-  height: 62px;
   border-top: 1px solid var(--yellow-bg, #fee42a);
 }
 
 .footer__links_container {
   display: flex;
-  height: 62px;
   justify-content: flex-end;
   gap: 16px;
 }
